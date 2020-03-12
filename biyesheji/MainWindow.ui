@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>250</y>
+      <width>160</width>
+      <height>170</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="mr1button">
+       <property name="text">
+        <string>mr1测试</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr2Button">
+       <property name="text">
+        <string>mr2测试</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr3Button">
+       <property name="text">
+        <string>mr3测试</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr4Button">
+       <property name="text">
+        <string>mr4测试</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr5Button">
+       <property name="text">
+        <string>mr5测试</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr6Button">
+       <property name="text">
+        <string>mr6测试</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>301</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>选择目标文件夹</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>生成目录</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>301</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_test"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="text">
+        <string>选择测试程序文件夹</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="text">
+        <string>生成对照数据</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>0</y>
+      <width>371</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>0</y>
+      <width>160</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_data"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="text">
+        <string>选择工作目录</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr1data">
+       <property name="text">
+        <string>mr1蜕变</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr2data">
+       <property name="text">
+        <string>mr2蜕变</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr3data">
+       <property name="text">
+        <string>mr3蜕变</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr4data">
+       <property name="text">
+        <string>mr4蜕变</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr5data">
+       <property name="text">
+        <string>mr5蜕变</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mr6data">
+       <property name="text">
+        <string>mr6蜕变</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>609</x>
+      <y>250</y>
+      <width>91</width>
+      <height>199</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>mr1测试结果</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>mr2测试结果</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>mr3测试结果</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>mr4测试结果</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>mr5测试结果</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="text">
+        <string>mr6测试结果</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="text">
+        <string>所有结果统计</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>460</y>
+      <width>239</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>870</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>mr1button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr1test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>731</x>
+     <y>294</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>288</x>
+     <y>92</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr2Button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr2test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>751</x>
+     <y>323</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>93</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr3Button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr3test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>747</x>
+     <y>352</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>127</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr4Button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr4test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>731</x>
+     <y>381</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>450</x>
+     <y>159</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr5Button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr5test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>714</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>462</x>
+     <y>184</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr6Button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr6test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>749</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>gefiles()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>299</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>365</x>
+     <y>36</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setBrowerPath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>190</x>
+     <y>47</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setTestPath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>213</x>
+     <y>152</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>181</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setBrowerPath_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>737</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>363</x>
+     <y>240</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr1data</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr1_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>727</x>
+     <y>101</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr2data</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr2_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>767</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>465</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr3data</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr3_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>761</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>489</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr4data</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr4_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>772</x>
+     <y>188</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>520</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr5data</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr5_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>748</x>
+     <y>217</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>546</x>
+     <y>303</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mr6data</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr6_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>762</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>576</x>
+     <y>316</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>geTestRe()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>259</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>259</x>
+     <y>190</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr1_result()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>647</x>
+     <y>287</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>474</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr2_result()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>648</x>
+     <y>312</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>497</x>
+     <y>495</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr3_result()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>626</x>
+     <y>339</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>538</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr4_result()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>647</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>557</x>
+     <y>531</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr5_result()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>642</x>
+     <y>402</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>535</x>
+     <y>553</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mr6_result()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>637</x>
+     <y>424</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>573</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>all_result()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>661</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>580</x>
+     <y>505</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>mr1test()</slot>
+  <slot>mr2test()</slot>
+  <slot>mr3test()</slot>
+  <slot>mr4test()</slot>
+  <slot>mr5test()</slot>
+  <slot>mr6test()</slot>
+  <slot>setBrowerPath()</slot>
+  <slot>gefiles()</slot>
+  <slot>setFilePath()</slot>
+  <slot>setBrowerPath_2()</slot>
+  <slot>mr1_data()</slot>
+  <slot>mr2_data()</slot>
+  <slot>mr3_data()</slot>
+  <slot>mr4_data()</slot>
+  <slot>mr5_data()</slot>
+  <slot>mr6_data()</slot>
+  <slot>geTestRe()</slot>
+  <slot>setTestPath()</slot>
+  <slot>mr1_result()</slot>
+  <slot>mr2_result()</slot>
+  <slot>mr3_result()</slot>
+  <slot>mr4_result()</slot>
+  <slot>mr5_result()</slot>
+  <slot>mr6_result()</slot>
+  <slot>all_result()</slot>
+ </slots>
+</ui>
